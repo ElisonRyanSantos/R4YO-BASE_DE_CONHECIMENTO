@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R4YO GAMING.GG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho da página, com logo e barra de busca -->
+    <header>
+        <div class="header-container">
+            <h1 class="logo">
+                <img src="Logo.png.jpeg" alt="Logo R4YO GAMING">
+            </h1>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Busque por nome, tag ou descrição...">
+            </div>
+        </div>
+    </header>
+
+    <!-- Conteúdo principal da página -->
+    <main>
+        <!-- Seção de destaque (Hero) -->
+        <section class="hero">
+            <h2>R4YO GAMING: Um projeto ambicioso</h2>
+            <p>Conheça a R4YO GAMING e toda a sua estrutura</p>
+        </section>
+
+        <!-- Navegação de filtros para os cards -->
+        <nav class="nav-filter">
+            <button class="filter-btn active" data-filter="all">Todos</button>
+            <button class="filter-btn" data-filter="Guilda">R4YO</button>
+            <button class="filter-btn" data-filter="Jogadores">Jogadores</button>
+            <button class="filter-btn" data-filter="Titulos">Titulos</button>
+            <button class="filter-btn" data-filter="Campeonatos">Campeonatos</button>
+            <button class="filter-btn" data-filter="Lines">Lines</button>
+        </nav>
+
+        <!-- Container onde os cards serão inseridos dinamicamente via JavaScript -->
+        <section class="card-container">
+          
+        </section>
+    </main>
+
+    <!-- Rodapé da página -->
+    <footer class="footer">
+        <p>&copy; 2025 R4YO GAMING - Desenvolvido por Élison Ryan</p>
+        <ul class="footer-links">
+            <li><a href="https://www.instagram.com/r4yo.gaming?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Instagram</a></li>
+            
+        </ul>
+    </footer>
+
+    <!-- Link para o arquivo JavaScript que controla a interatividade da página -->
+    <script src="script.js"></script>
+</body>
+</html>
